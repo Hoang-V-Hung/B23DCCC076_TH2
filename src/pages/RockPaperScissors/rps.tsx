@@ -1,6 +1,6 @@
 import { Button, Pagination, Table } from "antd";
 import { useModel } from "umi";
-import { useState } from "react";
+import { useState } from "react"; 
 
 const RPS = () => {
   const { playerChoice, computerChoice, result, playGame, resetGame, choices, history, calculateProbabilities } = useModel("rps");
