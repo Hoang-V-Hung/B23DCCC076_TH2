@@ -84,26 +84,29 @@ export default [
 		icon:'RocketOutlined'
 	},
 	{
-		path: '/quanlycauhoi',
-		name: 'Quản lý Câu Hỏi Tự Luận',
-		Icon: 'QuestionCircleOutlined',
+		path: '/nganHangCauHoi',
+		name: 'Ngan hang cau hoi',
+		
 		routes: [
 			{
-				path: 'quanlymonhoc',
+				path: './qlMonHoc1',
 				name: 'Quản lý môn học',
-				component:'./QuanLyCauHoiTuLuan/QuanLyMonHoc/QuanLyMonHoc',
+				component: './qlMonHoc1',
 			},
 			{
-				path: 'quanlycauhoi',
-				name: 'Quản lý câu hỏi',
-				component: './QuanLyCauHoiTuLuan/QuanLyCauHoi/QuanLyCauHoi',
+				path: './qlCauHoi',
+				name:'Câu hỏi',
+				component:'./qlCauhoi',
+				
 			},
 			{
-				path: 'quanlydethi',
-				name: 'Quản lý đề thi',
-				component: './QuanLyCauHoiTuLuan/QuanLyDeThi/QuanLyDeThi',
+				path: './qlDeThi',
+				name:'De thi',
+				component:'./dethi',
+				
 			},
 		],
+		
 	},
 
 	// DANH MUC HE THONG
